@@ -6,5 +6,7 @@ urlpatterns = [
     path('jobs/', JobsView.as_view(), name='job_listing'),
     path('contact/', ContactPageView.as_view(), name='contact'),
     path('about/', AboutUsView.as_view(), name='about'),
+    path('jobs/<int:pk>/', JobDetailView.as_view(), name='job_details'),
+    
 ]
 

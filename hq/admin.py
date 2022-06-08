@@ -5,3 +5,4 @@ from .models import *
 
 admin.site.register(Job)
 admin.site.register(Location)
+admin.site.register(Requirement)
